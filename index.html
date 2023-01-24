@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Encriptador desencriptador de texto">
+    <meta name="author" content="marcelo cogni">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!responsive web design>
+    
+    <title>encriptador ORCL-ALURA-ONE</title>
+    
+    <script src="codificador.js"></script>
+
+    <link rel="stylesheet" href="reset.css"><!eliminar estilos por defecto de browser>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <!fuentes externas>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div>
+        <textarea id="ingreso_texto" name="ingreso_texto" autofocus required placeholder="Ingrese el texto aquí..." defaultValue=""></textarea>
+        <img id="imagen1" src="1.png">
+        <textarea id="egreso_texto" name="egreso_texto" hidden disabled readonly></textarea>
+        <img id="logo" src="logo.png">
+    </div>
+
+    <div class=botonera>
+        <input id="boton1" type="button" onclick=encriptar() value="Encriptar">
+        <input id="boton2" type="button" onclick=desencriptar() value="Desencriptar">
+    </div>
+
+    <div class="advertencia">
+        <img id="vector" src="Vector.png">
+        <p id="mensaje">Solo letras minúsculas y sin acentos.</p>
+    </div>
+    
+    <div class="copiar">
+    <img id="duplicar" src="duplicate.png">
+    <input id="boton3" type="button" onclick=copiar() value="COPIAR">
+    </div>
+    
+    <marquee class="rodapie"behavior="scroll" direction="right">Encriptador- desencriptador de texto. Marcelo Cogni. Desafío 1 ALURA ORACLE ONE grupo 4.</marquee>
+
+</body>
+
+</html>

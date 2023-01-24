@@ -1,0 +1,248 @@
+/*Archivo de estilo*/
+/*Soporte para index1.htlm codificador de texto*/
+
+/*Encriptador 1 desktop*/
+
+#logo{
+/* Auto layout */
+display: flex; flex-direction: column; align-items: flex-start;
+padding: 0px; gap: 40px;
+position: absolute;
+width: 120px; height: 48px;
+left: 40px; top: 40px;
+}
+
+#ingreso_texto{
+/* Ingrese el texto aqui */
+position: absolute;
+width: 560px; height: 400px;
+left: 240px;top: 168px;
+padding: 10px 10px;
+border-style: hidden;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+resize: none;
+/* identical to box height, or 48px */
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+}
+
+#imagen1{
+/* Rectangle 1 */
+position: absolute;
+width: 400px; height: 944px;
+left: 1000px; top: 40px;
+/* White */
+background:#FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+#egreso_texto{
+position: absolute;
+width: 400px; height: 944px;
+color:red;
+left: 1000px; top: 40px;
+padding: 10px 10px;
+font-family:verdana;
+font-style:italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* White */
+background:lightgoldenrodyellow;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+resize: none;
+}
+
+#imagen1{
+/* Rectangle 1 */
+position: absolute;
+width: 400px; height: 944px;
+left: 1000px; top: 40px;
+/* White */
+background:#FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;    
+}
+
+.botonera{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+position: absolute;
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;    
+}
+
+#boton1{
+box-sizing: border-box;
+/* Auto layout */
+display: flex; flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 8px;
+width: 328px; height: 67px;
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* Button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+/* White */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+#boton2{
+/* Button */
+box-sizing: border-box;
+/* Auto layout */
+display: flex; flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 8px;
+width: 328px; height: 67px;
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871; border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+/* Button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.advertencia{
+/* Auto layout */
+display: flex; flex-direction: row;
+align-items: center;
+display: flex;
+padding: 0px;
+gap: 5px;
+position: absolute;
+width: 300px; height: 20px;
+left: 240px;top: 851px;
+}
+
+#vector{
+width: 18px;height: 18px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#mensaje{
+width: 350px; height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: auto;
+line-height: 100%;
+display: inline-flex;
+/* identical to box height, or 18px */
+/* Gray/gray-400 */
+color: #495057;   
+opacity: 0.8;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+.copiar{
+/* Auto layout */
+display: flex; flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+position: absolute;
+width: 150px;
+height: 67px;
+left: 1050px; top: 885px;    
+}
+
+#duplicar{
+display: flex; flex-direction: row;
+align-items: flex-start;
+width: 67px;height: 67px;
+padding: 1px;
+gap: 1px;
+/* Inside auto layout */
+order: 0;
+flex-grow: 0;
+}
+
+#boton3{
+/* Button */
+box-sizing: border-box;
+/* Auto layout */
+display: flex; flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 8px;
+width: 100px; height: 60px;
+/* Light gray */
+background: lightgreen;
+border: 1px solid #0A3871; border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+/* Button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+}
+
+.rodapie{
+position: absolute;
+top: 965px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: bolder;
+font-size: 0.75em;
+color:saddlebrown;
+}
